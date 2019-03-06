@@ -1,0 +1,301 @@
+/*start main rulez*/
+
+body{
+	background-color: #f4f4f4;
+	font-size: 16px;
+}
+
+/*end main rulez*/
+/*start login form */
+ .login {
+	width: 300px;
+	margin: 100px auto;
+}
+.login input {
+	margin-bottom: 10px;
+}
+ /*end login form */
+
+ /*start bootstrap edits */
+.navbar {  border-radius: 0;  margin-bottom: 0;}
+
+.nav>li>a ,.navbar-brand { padding: 15px 12px  ;}
+
+.navbar-brand {font-size: 1em;}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+	color: #fff ;
+    background-color: #3498db;
+}
+.dropdown-menu>li>a{
+color: #fff ;
+padding: 10px 15px;
+}
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+.show-pass{
+	position: absolute;
+	top: 6px;
+	right: -30px ;
+}
+
+ /*end bootstrap edits */
+
+ /*start dashboard page */
+  .home-stats .stat i{
+  	position: absolute;
+  	font-size: 70px;
+  	top: 35px;
+  	left:  30px
+
+  }
+  .home-stats .stat{
+    border-radius: 10px;
+  	padding: 20px;
+  	font-size: 15px;
+  	color: #fff ;
+  	position: relative;
+  	overflow: hidden;
+  }
+  .home-stats .stat .info{
+    margin-left: 70px;
+      }
+
+  .home-stats .stat span {
+  	display: block;
+  	font-size: 60px;
+  }
+  .home-stats .stat a {
+	color: #FFF;
+  }
+
+  .home-stats .stat a:hover {
+	text-decoration: none;
+    }
+
+	.home-stats .st-members{
+		background-color: #d35400;
+	}
+    .home-stats .st-items{
+		background-color: #1abc9c;
+	}
+    .home-stats .st-pending{
+		background-color: #e74c3c;
+	}
+    .home-stats .st-comments{
+		background-color: #c0392b;
+	}
+
+ .letest{
+ 	margin-top: 30px;
+ }
+.letest .toggel-info{
+	color: #999;
+	cursor: pointer;
+}
+.letest .toggel-info:hover{
+	color: #444;
+
+}
+ .latest-users {
+	margin-bottom: 0;
+}
+
+.latest-users li {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) {
+	background-color: #EEE;
+}
+
+.latest-users .btn-success,
+.latest-users .btn-info {
+	padding: 2px 8px;
+}
+
+.latest-users .btn-info {
+	margin-right: 5px;
+}
+.panel-body {
+    padding: 5px;
+}
+
+  /*end dashboard page */
+
+ /*start member page */
+	h1 {
+
+	font-size: 55px;
+	margin: 25px 0;
+	font-weight: bold;
+	color: #666;
+	}
+ 
+.manage-member img {
+	width:  f50px;
+	height: 50px;
+}
+
+.main-table {
+	-webkit-box-shadow: 0 3px 10px #CCC;
+	-moz-box-shadow: 0 3px 10px #CCC;
+	box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td {
+	background-color: #FFF;
+	vertical-align: middle !important;
+}
+
+.main-table tr:first-child td { /* You Can Use Thead */
+	background-color: #333;
+	color: #FFF;
+}
+
+.main-table .btn {
+	padding: 3px 10px;
+}
+.main-table img {
+	width: 50px;
+	height: 50px;
+}
+
+.activate ,.confirm{
+	margin-left: 5px;
+} 
+ /*end member page */
+
+/*start category page */
+.categories .panel-heading{
+	color: #959595;
+	font-weight: bold;
+}
+.categories .panel-body{
+	padding: 0;
+}
+
+
+.categories .option a {
+	color: #888;
+	text-decoration: none ;
+}
+.categories .option span {
+	color: #888;
+	cursor: pointer;
+}
+.categories .option .active{
+	color: #f00  ;
+	font-weight: bold;
+}
+.categories hr {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	
+}
+.categories .cat{
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.categories .cat:hover {
+	
+	background-color: #EEE; 
+}
+.categories .cat:hover .heddin-buttons {
+	right: 10px;
+	 
+}
+.categories .cat h3 {
+	margin: 0 ;
+	cursor: pointer;
+	font-weight: bold;
+	color: #6A6A6A ;
+}
+.categories .cat .full-view p {
+	margin: 10px 0;
+	color: 707070;
+}
+.categories .cat .heddin-buttons{
+	-webkit-transition :all .5s ease-in-out;
+	-moz-transition :all .5s ease-in-out;
+	transition :all .5s ease-in-out;
+	position: absolute;
+	top:10px;
+	right: -130px;
+}
+.categories .cat .heddin-buttons a {
+	margin-right: 5px;
+}
+.categories .cat .heddin-buttons i {
+	margin-right: 5px;
+}
+.categories i {
+	margin-right: 5px;
+}
+
+
+.categories .cat:last-of-type ~ hr {
+	display: none;
+}
+
+.categories .cat .cat-span {
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+
+.categories .cat .visibility {
+    background-color:#7f8c8d ;
+    color: #fff;
+     padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+.categories .cat .comment {
+    background-color: #34495e;
+    color: #fff;
+     padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+.categories .cat .ads {
+    background-color: #e74c3c;
+    color: #fff;
+     padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+.categories .child-head {
+	margin: 15px 0 5px ;
+	font-weight: bold;
+	font-size: 16px;
+	color: #29a08b;
+}
+.categories .child-cats {
+	margin: 0;
+}
+
+.categories .child-cats li {
+	margin-left: 15px;
+}
+.categories .child-cats li:before{
+	content: "- "
+	
+}
+.categories .delete-child{
+	color: #f00;
+	font-weight: bold;
+	font-size: 15px;
+}
+/*end category page */
